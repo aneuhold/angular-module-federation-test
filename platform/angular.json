@@ -11,12 +11,38 @@
       "prefix": "app",
       "architect": {
         "build": {
+          "builder": "@angular-architects/native-federation:build",
+          "options": {},
+          "configurations": {
+            "production": {
+              "target": "platform:esbuild:production"
+            },
+            "development": {
+              "target": "platform:esbuild:development",
+              "dev": true
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "serve": {
+          "builder": "@angular-architects/native-federation:build",
+          "options": {
+            "target": "platform:serve-original:development",
+            "rebuildDelay": 0,
+            "dev": true,
+            "port": 0
+          }
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n"
+        },
+        "esbuild": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
             "outputPath": "dist/platform",
             "index": "src/index.html",
             "browser": "src/main.ts",
-            "polyfills": ["zone.js"],
+            "polyfills": ["zone.js", "es-module-shims"],
             "tsConfig": "tsconfig.app.json",
             "assets": [
               {
@@ -51,20 +77,20 @@
           },
           "defaultConfiguration": "production"
         },
-        "serve": {
+        "serve-original": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "platform:build:production"
+              "buildTarget": "platform:esbuild:production"
             },
             "development": {
-              "buildTarget": "platform:build:development"
+              "buildTarget": "platform:esbuild:development"
             }
           },
-          "defaultConfiguration": "development"
-        },
-        "extract-i18n": {
-          "builder": "@angular-devkit/build-angular:extract-i18n"
+          "defaultConfiguration": "development",
+          "options": {
+            "port": 4200
+          }
         }
       }
     }
