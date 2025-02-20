@@ -10,7 +10,7 @@ vite.config.ts.timestamp-*
 
 # Yarn 4.x
 node_modules
-**/*/install-state.gz
+.yarn
 
 # Angular
 .angular

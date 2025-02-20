@@ -2,7 +2,7 @@
   "name": "angular-module-federation-test",
   "version": "0.0.1",
   "scripts": {
-    "i": "yarn && cd platform && yarn",
+    "i": "yarn && cd platform && yarn && cd .. && cd product1 && yarn",
     "start": "cd platform && yarn start"
   },
   "packageManager": "yarn@4.6.0",
