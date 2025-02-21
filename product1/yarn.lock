@@ -233,7 +233,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/build@npm:19.1.8":
+"@angular/build@npm:19.1.8, @angular/build@npm:^19.1.8":
   version: 19.1.8
   resolution: "@angular/build@npm:19.1.8"
   dependencies:
@@ -7971,6 +7971,7 @@ __metadata:
     "@angular-architects/native-federation": "npm:^19.0.0"
     "@angular-devkit/build-angular": "npm:^19.1.4"
     "@angular/animations": "npm:^19.1.0"
+    "@angular/build": "npm:^19.1.8"
     "@angular/cli": "npm:^19.1.4"
     "@angular/common": "npm:^19.1.0"
     "@angular/compiler": "npm:^19.1.0"

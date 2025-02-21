@@ -2,14 +2,15 @@
   "name": "angular-module-federation-test",
   "version": "0.0.1",
   "scripts": {
-    "i": "yarn && cd platform && yarn && cd .. && cd product1 && yarn",
-    "start": "cd platform && yarn start"
+    "i": "yarn && cd platform && yarn && cd .. && cd product1 && yarn && cd .. && cd product2 && yarn",
+    "start": "concurrently -n \"platform,product1,product2\" -c \"red,green,blue\" \"cd platform && yarn start\" \"cd product1 && yarn start\" \"cd product2 && yarn start\""
   },
   "packageManager": "yarn@4.6.0",
   "private": true,
   "devDependencies": {
     "@aneuhold/eslint-config": "^1.0.58",
     "@angular/cli": "~19",
+    "concurrently": "^9.1.2",
     "eslint": "^9.12.0",
     "prettier": "^3.3.3",
     "typescript": "^5.7.3"

@@ -8,6 +8,7 @@
     "watch": "ng build --watch --configuration development"
   },
   "private": true,
+  "packageManager": "yarn@4.6.0",
   "dependencies": {
     "@angular-architects/native-federation": "^19.0.10",
     "@angular/animations": "^19.1.7",
@@ -26,6 +27,7 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^19.1.8",
+    "@angular/build": "^19.1.8",
     "@angular/cli": "^19.1.8",
     "@angular/compiler-cli": "^19.1.7",
     "typescript": "~5.7.3"

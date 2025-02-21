@@ -1,0 +1,234 @@
+{
+  "name": "product2",
+  "shared": [
+    {
+      "packageName": "@angular-architects/module-federation",
+      "outFileName": "_angular_architects_module_federation.7Uyu-nWzqR-dev.js",
+      "requiredVersion": "19.0.1",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "19.0.1",
+      "dev": {
+        "entryPoint": "/Users/aneuhold/Development/GithubRepos/angular-module-federation-test/product2/node_modules/@angular-architects/module-federation/src/index.js"
+      }
+    },
+    {
+      "packageName": "@angular/animations",
+      "outFileName": "_angular_animations.SlsZUyhbno-dev.js",
+      "requiredVersion": "^19.1.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "19.1.7",
+      "dev": {
+        "entryPoint": "/Users/aneuhold/Development/GithubRepos/angular-module-federation-test/product2/node_modules/@angular/animations/fesm2022/animations.mjs"
+      }
+    },
+    {
+      "packageName": "@angular/animations/browser",
+      "outFileName": "_angular_animations_browser.QMKmeAgyNl-dev.js",
+      "requiredVersion": "^19.1.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "19.1.7",
+      "dev": {
+        "entryPoint": "/Users/aneuhold/Development/GithubRepos/angular-module-federation-test/product2/node_modules/@angular/animations/fesm2022/browser.mjs"
+      }
+    },
+    {
+      "packageName": "@angular/common",
+      "outFileName": "_angular_common.opEouQXTRU-dev.js",
+      "requiredVersion": "^19.1.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "19.1.7",
+      "dev": {
+        "entryPoint": "/Users/aneuhold/Development/GithubRepos/angular-module-federation-test/product2/node_modules/@angular/common/fesm2022/common.mjs"
+      }
+    },
+    {
+      "packageName": "@angular/common/http",
+      "outFileName": "_angular_common_http.Fk-rAovlTX-dev.js",
+      "requiredVersion": "^19.1.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "19.1.7",
+      "dev": {
+        "entryPoint": "/Users/aneuhold/Development/GithubRepos/angular-module-federation-test/product2/node_modules/@angular/common/fesm2022/http.mjs"
+      }
+    },
+    {
+      "packageName": "@angular/compiler",
+      "outFileName": "_angular_compiler.r5WWqgXMQg-dev.js",
+      "requiredVersion": "^19.1.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "19.1.7",
+      "dev": {
+        "entryPoint": "/Users/aneuhold/Development/GithubRepos/angular-module-federation-test/product2/node_modules/@angular/compiler/fesm2022/compiler.mjs"
+      }
+    },
+    {
+      "packageName": "@angular/core",
+      "outFileName": "_angular_core.RbXWdcdzyG-dev.js",
+      "requiredVersion": "^19.1.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "19.1.7",
+      "dev": {
+        "entryPoint": "/Users/aneuhold/Development/GithubRepos/angular-module-federation-test/product2/node_modules/@angular/core/fesm2022/core.mjs"
+      }
+    },
+    {
+      "packageName": "@angular/core/event-dispatch-contract.min.js",
+      "outFileName": "_angular_core_event_dispatch_contract_min_js.nMwir1Mrnm-dev.js",
+      "requiredVersion": "^19.1.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "19.1.7",
+      "dev": {
+        "entryPoint": "/Users/aneuhold/Development/GithubRepos/angular-module-federation-test/product2/node_modules/@angular/core/event-dispatch-contract.min.js"
+      }
+    },
+    {
+      "packageName": "@angular/core/primitives/event-dispatch",
+      "outFileName": "_angular_core_primitives_event_dispatch.J2pY1WDW3_-dev.js",
+      "requiredVersion": "^19.1.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "19.1.7",
+      "dev": {
+        "entryPoint": "/Users/aneuhold/Development/GithubRepos/angular-module-federation-test/product2/node_modules/@angular/core/fesm2022/primitives/event-dispatch.mjs"
+      }
+    },
+    {
+      "packageName": "@angular/core/primitives/signals",
+      "outFileName": "_angular_core_primitives_signals.Fx_dZzUQ36-dev.js",
+      "requiredVersion": "^19.1.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "19.1.7",
+      "dev": {
+        "entryPoint": "/Users/aneuhold/Development/GithubRepos/angular-module-federation-test/product2/node_modules/@angular/core/fesm2022/primitives/signals.mjs"
+      }
+    },
+    {
+      "packageName": "@angular/core/rxjs-interop",
+      "outFileName": "_angular_core_rxjs_interop.wH1EqsmZNB-dev.js",
+      "requiredVersion": "^19.1.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "19.1.7",
+      "dev": {
+        "entryPoint": "/Users/aneuhold/Development/GithubRepos/angular-module-federation-test/product2/node_modules/@angular/core/fesm2022/rxjs-interop.mjs"
+      }
+    },
+    {
+      "packageName": "@angular/forms",
+      "outFileName": "_angular_forms.Y67aAUZAjZ-dev.js",
+      "requiredVersion": "^19.1.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "19.1.7",
+      "dev": {
+        "entryPoint": "/Users/aneuhold/Development/GithubRepos/angular-module-federation-test/product2/node_modules/@angular/forms/fesm2022/forms.mjs"
+      }
+    },
+    {
+      "packageName": "@angular/platform-browser",
+      "outFileName": "_angular_platform_browser.eOFfNaq2Bx-dev.js",
+      "requiredVersion": "^19.1.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "19.1.7",
+      "dev": {
+        "entryPoint": "/Users/aneuhold/Development/GithubRepos/angular-module-federation-test/product2/node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs"
+      }
+    },
+    {
+      "packageName": "@angular/platform-browser/animations",
+      "outFileName": "_angular_platform_browser_animations.BwzU9pfyVY-dev.js",
+      "requiredVersion": "^19.1.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "19.1.7",
+      "dev": {
+        "entryPoint": "/Users/aneuhold/Development/GithubRepos/angular-module-federation-test/product2/node_modules/@angular/platform-browser/fesm2022/animations.mjs"
+      }
+    },
+    {
+      "packageName": "@angular/platform-browser/animations/async",
+      "outFileName": "_angular_platform_browser_animations_async.NZBgonfvtR-dev.js",
+      "requiredVersion": "^19.1.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "19.1.7",
+      "dev": {
+        "entryPoint": "/Users/aneuhold/Development/GithubRepos/angular-module-federation-test/product2/node_modules/@angular/platform-browser/fesm2022/animations/async.mjs"
+      }
+    },
+    {
+      "packageName": "@angular/platform-browser-dynamic",
+      "outFileName": "_angular_platform_browser_dynamic.mM8atE4O_l-dev.js",
+      "requiredVersion": "^19.1.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "19.1.7",
+      "dev": {
+        "entryPoint": "/Users/aneuhold/Development/GithubRepos/angular-module-federation-test/product2/node_modules/@angular/platform-browser-dynamic/fesm2022/platform-browser-dynamic.mjs"
+      }
+    },
+    {
+      "packageName": "@angular/router",
+      "outFileName": "_angular_router.t53sPTAtgx-dev.js",
+      "requiredVersion": "^19.1.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "19.1.7",
+      "dev": {
+        "entryPoint": "/Users/aneuhold/Development/GithubRepos/angular-module-federation-test/product2/node_modules/@angular/router/fesm2022/router.mjs"
+      }
+    },
+    {
+      "packageName": "rxjs",
+      "outFileName": "rxjs.ICfkDfv35o-dev.js",
+      "requiredVersion": "~7.8.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "7.8.1",
+      "dev": {
+        "entryPoint": "/Users/aneuhold/Development/GithubRepos/angular-module-federation-test/product2/node_modules/rxjs/dist/esm5/index.js"
+      }
+    },
+    {
+      "packageName": "rxjs/operators",
+      "outFileName": "rxjs_operators.6FBrchjJQE-dev.js",
+      "requiredVersion": "~7.8.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "7.8.1",
+      "dev": {
+        "entryPoint": "/Users/aneuhold/Development/GithubRepos/angular-module-federation-test/product2/node_modules/rxjs/dist/esm5/operators/index.js"
+      }
+    },
+    {
+      "packageName": "tslib",
+      "outFileName": "tslib.CXZ8mJw2_o-dev.js",
+      "requiredVersion": "^2.3.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "2.8.1",
+      "dev": {
+        "entryPoint": "/Users/aneuhold/Development/GithubRepos/angular-module-federation-test/product2/node_modules/tslib/tslib.es6.mjs"
+      }
+    }
+  ],
+  "exposes": [
+    {
+      "key": "./Component",
+      "outFileName": "Component.js",
+      "dev": {
+        "entryPoint": "/Users/aneuhold/Development/GithubRepos/angular-module-federation-test/product2/src/app/app.component.ts"
+      }
+    }
+  ]
+}
