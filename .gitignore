@@ -7,7 +7,6 @@
 .output
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
-**/dist
 
 # Yarn 4.x
 node_modules
