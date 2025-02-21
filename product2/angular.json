@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "platform": {
+    "product2": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -11,35 +11,12 @@
       "prefix": "app",
       "architect": {
         "build": {
-          "builder": "@angular-architects/native-federation:build",
-          "options": {},
-          "configurations": {
-            "production": {
-              "target": "platform:esbuild:production"
-            },
-            "development": {
-              "target": "platform:esbuild:development",
-              "dev": true
-            }
-          },
-          "defaultConfiguration": "production"
-        },
-        "serve": {
-          "builder": "@angular-architects/native-federation:build",
-          "options": {
-            "target": "platform:serve-original:development",
-            "rebuildDelay": 0,
-            "dev": true,
-            "port": 0
-          }
-        },
-        "esbuild": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/platform",
+            "outputPath": "dist/product2",
             "index": "src/index.html",
             "browser": "src/main.ts",
-            "polyfills": ["zone.js", "es-module-shims"],
+            "polyfills": ["zone.js"],
             "tsConfig": "tsconfig.app.json",
             "assets": [
               {
@@ -74,19 +51,19 @@
           },
           "defaultConfiguration": "production"
         },
-        "serve-original": {
+        "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "platform:esbuild:production"
+              "buildTarget": "product2:build:production"
             },
             "development": {
-              "buildTarget": "platform:esbuild:development"
+              "buildTarget": "product2:build:development"
             }
           },
           "defaultConfiguration": "development",
           "options": {
-            "port": 4200
+            "port": 4202
           }
         }
       }
