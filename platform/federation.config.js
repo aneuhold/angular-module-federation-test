@@ -1,6 +1,11 @@
 const { withNativeFederation, shareAll } = require('@angular-architects/native-federation/config');
 
 module.exports = withNativeFederation({
+  remotes: {
+    product1: 'http://localhost:4201/remoteEntry.js',
+    product2: 'http://localhost:4202/remoteEntry.json'
+  },
+
   shared: {
     ...shareAll({ singleton: true, strictVersion: true, requiredVersion: 'auto' })
   },
