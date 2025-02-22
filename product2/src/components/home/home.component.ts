@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'home',
   imports: [],
   template: `
-    <h1>Home for Product 1</h1>
+    <h1>Home for Product 2</h1>
     <a href="/">Home</a>
   `
 })

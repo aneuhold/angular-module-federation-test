@@ -11,9 +11,9 @@ export const routes: Routes = [
   {
     path: 'product1',
     loadChildren: () => loadRemoteModule('product1', './product1Routes')
+  },
+  {
+    path: 'product2',
+    loadChildren: () => loadRemoteModule('product2', './product2Routes')
   }
-  // {
-  //   path: 'product2',
-  //   loadChildren: () => import('product2/app').then((m) => m.app)
-  // }
 ];
