@@ -15,6 +15,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@aneuhold/angular-example-lib@npm:^0.0.2":
+  version: 0.0.2
+  resolution: "@aneuhold/angular-example-lib@npm:0.0.2"
+  dependencies:
+    tslib: "npm:^2.3.0"
+  peerDependencies:
+    "@angular/common": ^19.1.0
+    "@angular/core": ^19.1.0
+  checksum: 10c0/ffdfaebfe3efe90663d0dd6b94b78606c24e4eff30e001e13f35f4c79b906413ecf98fa87febe36a0455dd633739f968b8f5155f544272548d5fc90e52c92a93
+  languageName: node
+  linkType: hard
+
 "@angular-architects/module-federation-runtime@npm:19.0.1":
   version: 19.0.1
   resolution: "@angular-architects/module-federation-runtime@npm:19.0.1"
@@ -7967,6 +7979,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "product1@workspace:."
   dependencies:
+    "@aneuhold/angular-example-lib": "npm:^0.0.2"
     "@angular-architects/module-federation": "npm:19.0.1"
     "@angular-architects/native-federation": "npm:^19.0.0"
     "@angular-devkit/build-angular": "npm:^19.1.4"

@@ -1,8 +1,9 @@
+import { AngularExampleLibComponent } from '@aneuhold/angular-example-lib';
 import { Component } from '@angular/core';
 
 @Component({
   selector: 'home',
-  imports: [],
+  imports: [AngularExampleLibComponent],
   styles: [
     `
       .product1-container {
@@ -31,6 +32,8 @@ import { Component } from '@angular/core';
       <div class="nav-links">
         <a href="/">Back to Platform</a>
       </div>
+      <p>Below if the component from the library</p>
+      <lib-angular-example-lib></lib-angular-example-lib>
     </div>
   `
 })
